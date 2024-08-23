@@ -1,1 +1,1 @@
-lua require('chatcli.vim')
+lua require('chatcli')
