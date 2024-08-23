@@ -15,9 +15,14 @@ editor.
 
 ## Installation
 
-1. Ensure you have [ChatCLI](https://github.com/cthulahoops/chatcli) installed and configured on your system.
-2. Install this plugin using your preferred Neovim plugin manager. For example, with [packer.nvim](https://github.com/wbthomason/packer.nvim):
-3. Add the plugin to your Neovim configuration:
+1. Ensure [ChatCLI](https://github.com/cthulahoops/chatcli) is installed and configured.
+2. Install this plugin using vim-plug. Add to your `init.vim`:
+
+   ```vim
+   Plug 'cthulahoops/chatcli-vim'
+   ```
+
+3. Run `:PlugInstall`.
 
 ## Usage
 
