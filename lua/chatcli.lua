@@ -78,7 +78,7 @@ vim.api.nvim_create_user_command("ChatCLISend", M.send_to_chatcli, {range = true
 
 -- Create the keybindings
 vim.api.nvim_set_keymap('n', '<leader>cr', ':ChatCLIRead<CR>', {noremap = true, silent = true})
-vim.api.nvim_set_keymap('n', '<leader>cs', ':ChatCLISend<CR>', {noremap = true, expr = true})
+vim.api.nvim_set_keymap('v', '<leader>cs', ':ChatCLISend<CR>', {noremap = true, expr = true})
 
 function M.open_chatcli_result()
   -- Read the result from chatcli
